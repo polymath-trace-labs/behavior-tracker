@@ -400,7 +400,7 @@ function BehaviorTracker({ user, onLogout, onAdmin }) {
                 <span style={{ color:"#475569" }}>· {user.username}</span>
               </div>
             </div>
-            <div style={{ display:"flex", gap:6" }}>
+            <div style={{ display:"flex", gap:6 }}>
               <button onClick={loadEntries} style={{ background:"rgba(255,255,255,0.08)", border:"none", borderRadius:8, padding:"6px 10px", color:"#94a3b8", cursor:"pointer", fontSize:16 }} title="Refresh">🔄</button>
               {onAdmin && <button onClick={onAdmin} style={{ background:"rgba(245,158,11,0.15)", border:"1px solid rgba(245,158,11,0.3)", borderRadius:8, padding:"6px 10px", color:"#fbbf24", cursor:"pointer", fontSize:13, fontWeight:"700" }}>👑</button>}
               <button onClick={onLogout} style={{ background:"rgba(255,255,255,0.08)", border:"none", borderRadius:8, padding:"6px 10px", color:"#94a3b8", cursor:"pointer", fontSize:13, fontWeight:"600" }}>🚪</button>
